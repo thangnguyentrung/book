@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   font-family: 'Times New Roman', Times, serif;
+    background-color: #589DB0;
+}
+.container {
+    width: 90%;
+    margin:  0 auto;
+    display: flex;
+}
+.groceries {
+    width: 600px;
+    min-height: 100vh;
+    background-color: white;
+    box-shadow: 10px 10px 24px  black; 
+    /* text-shadow: h-shadow v-shadow blur-radius color */
+
+}
+.groceries h1 {
+    font-size: 2.5rem;
+    margin-top: 1em;
+    font-family:“Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    font-style: inherit;
+}
+.groceries i {
+    font-size: 2rem;
+    color: orange;
+}
+.groceries input {
+    margin-top: 30px;
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+#allItems h2 {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+@media(max-width:480px) {
+    .groceries h1 {
+        font-size: 2rem;
+    }
+    .groceries i {
+        font-size: 1.5rem;
+    }
+    .groceries input {
+        font-size: 1rem;
+    }
+    #allItem h2 {
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+}
